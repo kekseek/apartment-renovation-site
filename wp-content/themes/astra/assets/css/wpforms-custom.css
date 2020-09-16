@@ -1,0 +1,38 @@
+/**
+ * Форма на главной "Расчитать стоимость"
+ */
+#wpforms-form-6 .wpforms-field-label,
+#wpforms-form-6 .wpforms-field-number-slider-hint {
+    color: #ffffff;
+    font-size: 26px;
+}
+#wpforms-form-6 input[type=range]::-webkit-slider-thumb {
+    border-radius: 0;
+    height: 30px;
+    width: 5px;
+}
+#wpforms-form-6 select {
+    font-size: 20px;
+    padding: 10px 20px;
+    max-width: 100%;
+}
+#wpforms-form-6 .wpforms-field-radio .wpforms-field-label-inline {
+    font-size: 20px;
+    color: #ffffff;
+}
+#wpforms-form-6 .wpforms-field-number-slider-hint {
+    font-weight: 700;
+}
+#wpforms-form-6 .wpforms-field-number-slider-hint b {
+    padding: 0px 10px;
+    background-color: #1088b5;
+    width: 70px;
+    display: inline-block;
+    text-align: center;
+}
+#wpforms-6-field_5-container {
+    display: grid;
+}
+#wpforms-6-field_5-container .wpforms-field-number-slider-hint {
+    grid-row-start: 1;
+}
