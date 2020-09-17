@@ -1,0 +1,11 @@
+/**
+ * Template: astra
+ * Author: Wadim Kuritsyn
+ * Version: 0.1
+ * 
+ * Файл стилей WPForms
+ */
+
+.ast-header-break-point .ast-mobile-menu-buttons-fill.menu-toggle {
+    background-color: var(--main-blue-color);
+}

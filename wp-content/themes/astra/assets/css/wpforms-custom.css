@@ -1,4 +1,13 @@
 /**
+ * Template: astra
+ * Author: Wadim Kuritsyn
+ * Version: 0.1
+ * 
+ * Файл стилей WPForms
+ */
+
+
+/**
  * Форма на главной "Расчитать стоимость"
  */
 #wpforms-form-6 .wpforms-field-label,
@@ -10,11 +19,15 @@
     border-radius: 0;
     height: 30px;
     width: 5px;
+    border-width: 5px !important;
+    margin-top: -10px;
 }
 #wpforms-form-6 select {
     font-size: 20px;
     padding: 10px 20px;
     max-width: 100%;
+    color: #000000;
+    font-weight: 500;
 }
 #wpforms-form-6 .wpforms-field-radio .wpforms-field-label-inline {
     font-size: 20px;
@@ -25,7 +38,7 @@
 }
 #wpforms-form-6 .wpforms-field-number-slider-hint b {
     padding: 0px 10px;
-    background-color: #1088b5;
+    background-color: var(--main-blue-color);
     width: 70px;
     display: inline-block;
     text-align: center;
@@ -35,4 +48,31 @@
 }
 #wpforms-6-field_5-container .wpforms-field-number-slider-hint {
     grid-row-start: 1;
+}
+#wpforms-form-6 .wpforms-submit-container {
+    display: block;
+    clear: both;
+    text-align: center;
+}
+#wpforms-form-6 .wpforms-submit-container button[type="submit"] {
+    color: #ffffff;
+    background: var(--main-blue-color);
+    font-size: 18px;
+    padding: 10px 50px;
+}
+
+.wpforms-container .wpf-center {
+    margin: 0 auto !important;
+    max-width: 500px;
+    clear: both;
+    float: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .wpforms-container .wpforms-mobile-full {
+        width: 100% !important;
+        margin-left: 0 !important;
+        float: none !important;
+    }
 }

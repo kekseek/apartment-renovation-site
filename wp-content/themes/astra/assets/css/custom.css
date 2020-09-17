@@ -6,14 +6,16 @@
 
 /**
  * Содержание
- * 1. Инклуды
+ * 1. Импорт файлов css
  * 2. Типографика 
  */
  
 /**
- * 1. Инклуды
+ * 1. Импорт файлов css
  */
-@import "wpforms-custom.css";
+@import "custom-variables.css";     /* глобаьные перменные */
+@import "custom-mobile.css";        /* стили для мобильной версии */
+@import "wpforms-custom.css";       /* WPForms кастомные стили */
 
 /**
  * 2. Типографика
